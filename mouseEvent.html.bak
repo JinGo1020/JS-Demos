@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+function mouseOver()
+{
+document.getElementById("p1").innerHTML = "点击头像跳转至浙江工商大学";
+transform: scale(1.4);
+}
+function mouseOut()
+{
+document.getElementById("p1").innerHTML = "";
+}
+</script>
+</head>
+
+<body style="text-align:center">
+<br>
+<p style="font-weight:bold">请将鼠标移到头像上</p>
+<br>
+<img style="cursor:pointer" src="imgs/eg_mouse.png" onmouseover="mouseOver()" onmouseout="mouseOut()" />
+<p style="cursor:pointer" id="p1"></p>
+</body>
+</html>

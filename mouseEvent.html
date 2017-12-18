@@ -1,22 +1,27 @@
+<!DOCTYPE >
 <html>
 <head>
 <script type="text/javascript">
 function mouseOver()
 {
-document.getElementById("p1").innerHTML = "µã»÷Í·ÏñÌø×ªÖÁÕã½­¹¤ÉÌ´óÑ§";
+document.getElementById("p1").innerHTML = "ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ã½­ï¿½ï¿½ï¿½Ì´ï¿½Ñ§";
+document.getElementById("tup").style.width="384px";
+document.getElementById("tup").style.height="384px";
 }
 function mouseOut()
 {
 document.getElementById("p1").innerHTML = "";
+document.getElementById("tup").style.width="256px";
+document.getElementById("tup").style.height="256px";
 }
 </script>
 </head>
 
 <body style="text-align:center">
 <br>
-<p style="font-weight:bold">Çë½«Êó±êÒÆµ½Í·ÏñÉÏ</p>
+<p style="font-weight:bold">ï¿½ë½«ï¿½ï¿½ï¿½ï¿½Æµï¿½Í·ï¿½ï¿½ï¿½ï¿½</p>
 <br>
-<img style="cursor:pointer" src="imgs/eg_mouse.png" onmouseover="mouseOver()" onmouseout="mouseOut()" />
+<a href="http://www.hzic.edu.cn/"><img style="cursor:pointer" id="tup" src="imgs/eg_mouse.png" onmouseover="mouseOver()" onmouseout="mouseOut()" onclick="http://www.hzic.edu.cn/" /></a>
 <p style="cursor:pointer" id="p1"></p>
 </body>
 </html>
